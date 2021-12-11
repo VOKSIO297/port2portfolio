@@ -1,0 +1,124 @@
+   /*RWD*/
+/*telefony*/
+@media (min-width: 576px) { 
+ }
+
+/*tablety*/
+@media (min-width: 768px) { 
+    
+ }
+
+/*laptoki*/
+@media (min-width: 1200px) {  
+    .nag1{
+    color: white;
+    
+} 
+ .logo{
+     left: 10%;
+ }
+ .button
+{
+    right: 19%;
+}
+.skills
+{
+    right: 29%;
+}
+.port{
+    right: 38%;
+}
+.f1{
+    left: 1%;
+
+}
+.f1h
+{
+    left: 1%;
+}
+.f2h
+{
+    left: 26%;
+}
+.f2
+{
+    left: 26%;
+}
+.f3h
+{
+    left: 51%;
+}
+.f3
+{
+    left: 51%;
+}
+.f4h
+{
+    left: 76%;
+}
+.f4
+{
+    left: 76%;
+}
+.nag1{
+    top: 170px;
+}
+}
+
+/*większe ekrany*/
+@media (min-width: 1800px) {  
+.nag1 {
+    color: white;
+    
+} 
+.logo{
+    left: 22%;
+}
+.button
+{
+    right: 24%;
+
+}
+.skills
+{
+    right: 32%;
+}
+.port{
+    right: 39%;
+}
+.f1{
+    left: 10%;
+
+}
+.f1h
+{
+    left: 10%;
+}
+.f2h
+{
+    left: 30%;
+}
+.f2
+{
+    left: 30%;
+}
+.f3h
+{
+    left: 50%;
+}
+.f3
+{
+    left: 50%;
+}
+.f4h
+{
+    left: 70%;
+}
+.f4
+{
+    left: 70%;
+}
+.nag1{
+    top: 205px;
+}
+}

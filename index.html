@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="author" content="Jakub Długosz">
+        <meta http-equiv="language" content="pl">
+        <meta name="keywords" content="Web Developer, Portfolio, Jakub D">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="rwd.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+      <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="animate.css" type="text/css">
+        
+        
+
+
+    </head>
+    <body>
+        <body style="margin: 0;">  
+            <img src="bg1.jpg" class="bg1">
+            <!--menu-->
+            <img src="log1.png" alt="" class="logo">
+            <div class="home" onclick="location.href='https://voksio297.github.io/JakubDl-portfolio/'">HOME</div>
+            <div class="about" onclick="location.href='https://voksio297.github.io/about/'" >O MNIE</div>
+            <div class="port">PORTFOLIO</div>
+            <div class="skills">UMIEJĘTNOŚCI</div>
+            <div class="button" onclick="location.href='https://voksio297.github.io/Kon2/'">KONTAKT</div>
+            <!--menu-->
+
+            <div class="nag1" data-animate="bounceInUp">PORTFOLIO</div>
+            <div class="work" data-animate="bounceInUp">MOJE PRACE</div>
+            <img data-animate="bounceInUp" src="f1.jpg"class="f1">
+            <img data-animate="bounceInUp" src="f1hover.jpg"class="f1h">
+            <img data-animate="bounceInUp" src="f2.png"class="f2">
+            <img data-animate="bounceInUp" src="f2hover.png"class="f2h">
+            <img data-animate="bounceInUp" src="f3.png"class="f3">
+            <img data-animate="bounceInUp" src="f3hover.png"class="f3h">
+            <img data-animate="bounceInUp" src="f4.png"class="f4">
+            <img data-animate="bounceInUp" src="f4hover.png"class="f4h">
+
+            <!--slideshow1-->
+            <div class="projectstr" data-animate="bounceInUp">PROJEKTY STRON</div>
+            <div class="card">
+  
+                <div class="card_part card_part-one">
+                </div>
+                
+                 <!-- Photo 2 -->
+                <div class="card_part card_part-two">
+              
+                </div>
+              
+                <!-- Photo 3 -->
+                <div class="card_part card_part-three">
+                </div>
+                <!-- Photo 4 -->
+                <div class="card_part card_part-four">
+                </div>
+              </div>
+
+
+              <!--slideshow1-->
+                <div class="card1">
+                    <div class="card_part card_part-one1">
+                    </div>
+
+                     <!-- Photo 2 -->
+                    <div class="card_part card_part-two1">
+                    
+                    </div>
+                
+                    <!-- Photo 3 -->
+                    <div class="card_part card_part-three1">
+                    </div>
+                    <!-- Photo 4 -->
+                    <div class="card_part card_part-four1">
+                    </div>
+                  </div>
+
+                  <footer>
+        <div class="fo"></div>
+        <div class="c22" onclick="location.href='https://voksio297.github.io/Kon2/'">KONTAKT</div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jquery.viewportchecker.min.js"></script>
+<script>
+$(document).ready(function(){
+
+    $('*[data-animate]').addClass('hide').each(function(){
+  $(this).viewportChecker({
+    classToAdd: 'show animated ' + $(this).data('animate'),
+    classToRemove: 'hide',
+    offset: '30%'
+  });
+});
+
+});
+</script>
+
+    </body>
